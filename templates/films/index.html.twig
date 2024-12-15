@@ -3,18 +3,26 @@
 {% block title %}Hello FilmsController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/Users/diakite/testDeploy/HerokuCinephoria/src/Controller/FilmsController.php</code></li>
-        <li>Your template at <code>/Users/diakite/testDeploy/HerokuCinephoria/templates/films/index.html.twig</code></li>
-    </ul>
-</div>
+    <h1>FilmsController index</h1>
+    <p>Find me in: templates/films/index.html.twig</p>
+    <p>Controller: <code>{{ controller_name }}</code></p>
+    <p>Route: <code>{{ path('films_index') }}</code></p>
+    <p>URL: <code>{{ url('films_index') }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_show', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_new') }}</code></p>
+    <p>URL: <code>{{ url('films_new') }}</code></p>
+    <p>Route: <code>{{ path('films_edit', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_edit', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_delete', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_delete', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_show', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_show', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_show', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
+    <p>URL: <code>{{ url('films_show', {id: 1}) }}</code></p>
+    <p>Route: <code>{{ path('films_show', {id: 1}) }}</code></p>
 {% endblock %}
